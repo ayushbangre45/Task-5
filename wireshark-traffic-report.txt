@@ -1,0 +1,28 @@
+
+Capture Summary
+- Capture Duration: ~1 minute
+- Interface: Wi-Fi
+- Number of Packets: ~1,000
+- File Name: `network_capture.pcap`
+
+
+Protocols Identified
+
+1. TCP (Transmission Control Protocol)
+- Reliable connection-oriented protocol
+- Seen in traffic between browser and websites
+- Example: TCP handshake between local IP and 142.250.182.206 (Google)
+
+2. DNS (Domain Name System)
+- Resolves domain names to IPs
+- Example: Source: Local IP
+Destination: DNS Server
+Query: google.com → Response: 142.250.182.206
+
+
+3. HTTP (HyperText Transfer Protocol)
+- Used for web traffic (port 80)
+- Request methods like GET and POST captured
+- Example: GET /images/logo.png HTTP/1.1
+Host: example.com
+
